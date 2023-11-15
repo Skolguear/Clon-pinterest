@@ -217,10 +217,12 @@ footer{
 .conteinerGit{
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 #github{
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 32px;
+    outline: none;
 }
