@@ -186,6 +186,7 @@ input:focus{
     overflow: hidden;
     border-radius: 8px;
 }
+
 .image img{
     background-color: bisque;
     display: block;
@@ -193,10 +194,13 @@ input:focus{
     height: 100%;
     border-radius: 8px;
 }
-.omage:hover, img:hover{
+
+.image:hover, img:hover{
     transform: scale(1.05);
     filter: blur(1px);
 }
+
+
 footer{
     display: flex;
     flex-direction: row;
@@ -207,6 +211,7 @@ footer{
     padding: 20px;
     
 }
+
 #creador{
     display: flex;
     justify-content: center;
@@ -214,11 +219,13 @@ footer{
     font-weight: 800px;
     margin: 10px;
 }
+
 .conteinerGit{
     display: flex;
     justify-content: center;
     text-decoration: none;
 }
+
 #github{
     display: flex;
     justify-content: center;
