@@ -9,13 +9,14 @@ html, body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 /*Nav general*/
 #navbar-pinterest{
     display: flex;
     width: 100vw;
     height: 80px;
-
 }
+
 #navbar_conteiner{
     display: flex;
     flex-direction: row;
@@ -25,12 +26,13 @@ html, body{
     box-sizing: border-box;
     padding: 4px 16px;
 }
-/*Icono pinterest*/
 
+/*Icono pinterest*/
 #pinterest-icon > i{
     font-size: 28px;
     color: red;
 }
+
 /*Botones*/
 .botones{
     display: flex;
@@ -40,6 +42,7 @@ html, body{
     height: 0;
     padding-left: 16px;
 }
+
 .btn{
     display: inline-flex;
     justify-content: center;
@@ -51,12 +54,13 @@ html, body{
     border-radius: 25px;
     cursor: pointer;
     font-weight: 600;
-
 }
+
 .btn:hover{
     background-color: black;
     color: white;
 }
+
 /*Buscador*/
 .search_conteiner{
     display: flex;
@@ -67,12 +71,14 @@ html, body{
     height: 40px;
     border-radius: 20px;
 }
+
 .search_conteiner i{
     color: #5E5F5E;
     position: relative;
     top: 12px;
     left: 1px;
 }
+
 #search{
     border-radius: 20px;
     border: none;
@@ -83,6 +89,7 @@ html, body{
     padding-left: 8px;
     padding-right: 8px;
 }
+
 input:focus{
     transform: scale(1);
     outline: none;
@@ -90,6 +97,7 @@ input:focus{
     border-color: transparent;
     background-color: #e9e9e9;
 }
+
 /*iconos notifiaciones*/
 .icons{
     display: flex;
@@ -97,6 +105,7 @@ input:focus{
     align-items: center;
     box-sizing: border-box;
 }
+
 #notifications{
     display: flex;
     justify-content: center;
@@ -105,13 +114,16 @@ input:focus{
     width: 35px;
     height: 35px;
 }
+
 #notifications:hover{
     background-color: #C0C1C0;
 }
+
 #notifications i{
     font-size: 18px;
     color: #5E5F5E;
 }
+
 #messages{
     display: flex;
     justify-content: center;
@@ -120,13 +132,16 @@ input:focus{
     width: 35px;
     height: 35px;
 }
+
 #messages:hover{
     background-color: #C0C1C0;
 }
+
 #messages i{
     font-size: 18px;
     color: #5E5F5E;
 }
+
 #profile-img{
     display: flex;
     justify-content: center;
@@ -135,13 +150,16 @@ input:focus{
     width: 35px;
     height: 35px;
 }
+
 #profile-img:hover{
     background-color: #C0C1C0;
 }
+
 #profile-img i{
     font-size: 18px;
     color: #5E5F5E;
 }
+
 #arrow{
     display: flex;
     justify-content: center;
@@ -150,58 +168,9 @@ input:focus{
     width: 30px;
     height: 30px;
 }
+
 #arrow:hover{
     background-color: #C0C1C0;
 }
+
 /*card imagenes*/
-.card-image  {
-    display: grid;
-    grid-template: repeat(6, 1fr)/ repeat(5, 1fr);
-    align-items: center;
-    justify-items: center;
-    padding: auto;
-    margin: auto;
-    gap: 5px 5px;
-}
-
-img{
-    height: 340px;
-    width: 200px;
-    border-radius: 50px;
-}
-img:hover{
-    transform: scale(1.05);
-    filter: blur(1px);
-}
-
-.img1{
-    
-}
-
-
-@media screen and (max-width: 768px) and 
-(min-width: 480px ){
-    .card-image{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-/*pendiente*/
-/* .guardar{
-    display: none;
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    background-color: red;
-    border: none;
-    border-radius: 20px;
-    height: 30px;
-    color: white;
-}
-.guardar:hover{
-    opacity: block;
-    opacity: 1;
-} */
