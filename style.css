@@ -190,8 +190,12 @@ input:focus{
     background-color: bisque;
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 8px;
+}
+.omage:hover, img:hover{
+    transform: scale(1.05);
+    filter: blur(1px);
 }
 footer{
     display: flex;
