@@ -1,13 +1,10 @@
-/* *{
-    outline: 1px solid red;
-}  */
 
 html, body{
     width: 100vw;
     height: 100vh;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Nav general*/
@@ -195,12 +192,33 @@ input:focus{
     border-radius: 8px;
 }
 
-.image:hover, img:hover{
-    transform: scale(1.05);
-    filter: blur(1px);
+.image img:hover{
+    filter: brightness(0.5);
 }
 
+.contenedor-btn{
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
 
+.image:hover .contenedor-btn{
+    opacity: 1;
+}
+
+.btnSave{
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    font-weight: 400;
+}
+
+/*Footer*/
 footer{
     display: flex;
     flex-direction: row;
@@ -209,7 +227,6 @@ footer{
     height: 60px;
     margin: 10px;
     padding: 20px;
-    
 }
 
 #creador{
